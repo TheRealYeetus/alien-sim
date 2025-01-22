@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5efdb887e624e77c1b1917e0ee9b3e7e10b46c76f1e37994e02d45fb29b74ede
-size 204
+Base path: 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: shutdown
