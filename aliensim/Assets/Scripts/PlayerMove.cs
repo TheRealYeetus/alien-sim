@@ -18,7 +18,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector2 movement = move.ReadValue<Vector2>();
+        Vector2 movement = move.ReadValue<Vector2>().normalized;
 
         movement *= (moveSpeed);
 
