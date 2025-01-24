@@ -182,5 +182,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyOnDeath: 0
+  bloodEffect: {fileID: 60505979540107675, guid: fcf4a7d5d033c1b4fad6d774fb43b1e1, type: 3}
   hp: 1000
   maxHp: 1000

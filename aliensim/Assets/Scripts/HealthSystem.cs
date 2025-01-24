@@ -3,6 +3,7 @@ using UnityEngine;
 public class HealthSystem : MonoBehaviour
 {
     [SerializeField] bool destroyOnDeath = false;
+    [SerializeField] GameObject bloodEffect;
 
     public float hp = 1000;
     [SerializeField] float maxHp = 1000;
@@ -21,6 +22,8 @@ public class HealthSystem : MonoBehaviour
 
         if (hp <= 0)
         {
+            Death();
+
             if (!destroyOnDeath)
             {
                 gameObject.SetActive(false);
@@ -30,5 +33,10 @@ public class HealthSystem : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+    }
+
+    public void Death()
+    {
+        Instantiate(bloodEffect, transform.position, Quaternion.identity);
     }
 }
